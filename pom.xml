@@ -36,6 +36,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>spring-boot-github-cicd-action-docker-learn-this-is-docker-repo</finalName>
 	</build>
 
 </project>
