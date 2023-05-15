@@ -42,7 +42,7 @@ jobs:
         dockerfile: Dockerfile
         multiPlatform: true
 
-        registry: docker.io/abhijitsagar/spring-boot-github-cicd-action-docker-learn-this-is-docker-repo
+        registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
