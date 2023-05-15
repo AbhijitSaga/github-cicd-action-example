@@ -46,4 +46,4 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
-        #DockerSecretPassword DockerSecretUserName
+        #DockerSecretPassword DockerSecretUserName   abhijitsagar  dckr_pat_K6RsLCwkPDsERjuESs-Y_uuS9dY
