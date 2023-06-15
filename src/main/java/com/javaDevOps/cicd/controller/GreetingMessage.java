@@ -11,12 +11,9 @@ public class GreetingMessage {
         return "welcome to India......!";
     }
 
-    /*
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/AbhijitSaga/github-cicd-action-example.git
-git push -u origin main
-    */
+    @GetMapping("/hello")
+    public String hello(){
+        return " Hello india.....";
+}
+
 }
